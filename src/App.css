@@ -3,7 +3,7 @@
 /*Branding*/ 
 #headerContainer{
     background-color: #000;
-    color: #fff;
+    color: whitesmoke;
 }
 .section-1{
    margin: 0;
@@ -23,14 +23,10 @@
     color: #7fdff4;
 }
 
-.section-1 a{
-  
-}
-
 .tag{
-    opacity: 20%;
+    color: #353535;
     margin: 0;
-    font-size: 50px;
+    font-size: 2.5em;
 }
 #hr_logo{
     width: 11em;
@@ -54,7 +50,7 @@
 }
 .links a:hover{
     transform: scale(1.1);
-    color: #fff;
+    color: whitesmoke;
 }
 .profileLink:link{
     padding-right: 2em;
@@ -118,9 +114,7 @@
 .proj_title{
     font-size: 1.5em;
     color: #a7a8a6;
-    font-weight: bolder;
     letter-spacing: 0.2em;
-    opacity: 50%;  
     padding-left: 0.7em;
 }
 
@@ -139,7 +133,7 @@
    text-align: center;
     font-size: 0.8em;
     padding-right: 2em;
-    color: #fff;
+    color: whitesmoke;
     cursor: pointer;   
 }
 
@@ -216,9 +210,11 @@ a:hover .hover-img span {
   }*/
 /*Footer*/
 .footer p{
+    color: whitesmoke;
     padding: 10px;
     text-align: center;;
-    font-size: 0.7em;
+    font-size: 1em;
     margin:0;
+    letter-spacing: 0.1em;
 }
 

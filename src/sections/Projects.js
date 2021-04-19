@@ -11,15 +11,17 @@ import freelance from '../utils/freelanceWork'
 
 
 
-class Body extends Component {
+
+class App extends Component {
 
 	//state maintaining project navigation and display
 	state = { 
 			projects: simple,
+			navTitle:"Simple Projects =>",
 			project_display:[],
 			}
 	//init nav & display
-	componentDidMount(){
+	componentWillMount(){
 		const currentId = simple.filter(proj=> proj.id === 1)
 		this.setState( { project_display: currentId })
   }
@@ -28,29 +30,29 @@ class Body extends Component {
 		let currentId = this.state.projects.filter(proj=> proj.id === id)
 		this.setState( { project_display: currentId })
 	}
+	//handles switching through the navigation links
 	handleNavChange = id => {
-	
 		switch (id) {
 			case  1:
-				this.setState( { projects:simple } )
+				this.setState( { projects:simple, navTitle:"Simple Projects =>" } )
 				break;
 			case  2:
-				this.setState( { projects:complex } )
+				this.setState( { projects:complex, navTitle:"Complex Projects =>" } )
 				break;
 			case  3:
-				this.setState( { projects:design } )
+				this.setState( { projects:design, navTitle:"UI/UX Projects =>" } )
 				break;
 			case  4:
-				this.setState( { projects:openSource } )
+				this.setState( { projects:openSource, navTitle:"Open Source =>" } )
 				break;
 			case  5:
-				this.setState( { projects:freelance } )
+				this.setState( { projects:freelance, navTitle:"Freelance Work =>" } )
 				break;
 			default:
 		}
 	} 
 	render(){
-		const { projects, project_display } = this.state
+		const { projects, project_display, navTitle } = this.state
 
 		const projectList = projectNav.map(link =>
 			<ProjectsBar 
@@ -82,7 +84,7 @@ class Body extends Component {
 						{projectList}
 					</div>
 					<hr id='hr_sec_2' />
-					<h3 className='proj_title'>Select a project</h3>
+					<h3 className='proj_title'>{navTitle}</h3>
 					<div className="selection_pannel">
 						{navList}
 					</div>
@@ -94,7 +96,7 @@ class Body extends Component {
 	}
 }
 
-export default Body
+export default App
 
 
 

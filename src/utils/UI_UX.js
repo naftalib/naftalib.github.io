@@ -9,7 +9,7 @@ const Data = [
 		id: 1,
 	    img:img_PH2,
 		type: 'FullStack',
-		title: 'Up comming',
+		title: 'Coming soon',
 		description: 'This app was part of a course on React in which I leaned and mastered core React concepts such as state manipulation, conditional rendering, props and componant styling',
 		link: 'www.link.com',
 		code: 'github.com'
@@ -19,7 +19,7 @@ const Data = [
 		id: 2,
 	    img:img_PH2,
 		type: 'FullStack',
-		title: 'Up comming',
+		title: 'Coming soon',
 		description: 'This app was part of a course on React in which I leaned and mastered core React concepts such as state manipulation, conditional rendering, props and componant styling',
 		link: 'www.link.com',
 		code: 'github.com'
@@ -29,7 +29,7 @@ const Data = [
 		id: 3,
 	    img:img_PH2,
 		type: 'FullStack',
-		title: 'Up comming',
+		title: 'Coming soon',
 		description: 'This app was part of a course on React in which I leaned and mastered core React concepts such as state manipulation, conditional rendering, props and componant styling',
 		link: 'www.link.com',
 		code: 'github.com'
@@ -39,7 +39,7 @@ const Data = [
 		id: 4,
 	    img:img_PH2,
 		type: 'FullStack',
-		title: 'Up comming',
+		title: 'Coming soon',
 		description: 'This app was part of a course on React in which I leaned and mastered core React concepts such as state manipulation, conditional rendering, props and componant styling',
 		link: 'www.link.com',
 		code: 'github.com'

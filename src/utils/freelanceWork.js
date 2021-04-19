@@ -7,41 +7,11 @@ const Data = [
 	{
 		id: 1,
 	    img:img_PH,
-		type: 'FullStack',
-		title: 'Up comming',
-		description: 'This app was part of a course on React in which I leaned and mastered core React concepts such as state manipulation, conditional rendering, props and componant styling',
-		link: 'www.link.com',
-		code: 'github.com'
-
-	},
-	{
-		id: 2,
-	    img:img_PH,
-		type: 'FullStack',
-		title: 'Up comming',
-		description: 'This app was part of a course on React in which I leaned and mastered core React concepts such as state manipulation, conditional rendering, props and componant styling',
-		link: 'www.link.com',
-		code: 'github.com'
-
-	},
-	{
-		id: 3,
-	    img:img_PH,
-		type: 'FullStack',
-		title: 'Up comming',
-		description: 'This app was part of a course on React in which I leaned and mastered core React concepts such as state manipulation, conditional rendering, props and componant styling',
-		link: 'www.link.com',
-		code: 'github.com'
-
-	},
-	{
-		id: 4,
-	    img:img_PH,
-		type: 'FullStack',
-		title: 'Up comming',
-		description: 'This app was part of a course on React in which I leaned and mastered core React concepts such as state manipulation, conditional rendering, props and componant styling',
-		link: 'www.link.com',
-		code: 'github.com'
+		type: 'React App',
+		title: 'Landing page for CB&A insurance brokerage',
+		description: `I'm currently developing this small web site for a company that wants to eventually expand it's client base and provide a host of online services`,
+		link: '',
+		code: ''
 
 	}
 

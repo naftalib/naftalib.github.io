@@ -11,7 +11,7 @@ function Display (props){
 	return (		
 			<div className='display_container'>	
 				<div className='display_img'>
-					<img src= {props.info.img} height='400' width='450' alt="?" />
+					<img src= {props.info.img} height='400' width='550' alt="?" />
 				</div>			
 				<div className='display_data'>
 

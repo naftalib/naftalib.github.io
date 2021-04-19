@@ -1,14 +1,15 @@
 import img_PH from './imgs/placeHolder.JPG'
+import img_SB from './imgs/smartBrain.JPG'
 
 
 const Data = [
 
 	{
 		id: 1,
-	    img:img_PH,
+	    img:img_SB,
 		type: 'FullStack',
-		title: 'Up comming',
-		description: 'This app was part of a course on React in which I leaned and mastered core React concepts such as state manipulation, conditional rendering, props and componant styling',
+		title: 'Smart Brain',
+		description: `This app was the capstone project of a Full stack (MERN) course. The app uses and image recognition API to detect faces on an image stored in a database. (-please note that this project is currently under construction-)`,
 		link: 'www.link.com',
 		code: 'github.com'
 
@@ -17,28 +18,8 @@ const Data = [
 		id: 2,
 	    img:img_PH,
 		type: 'FullStack',
-		title: 'Up comming',
-		description: 'This app was part of a course on React in which I leaned and mastered core React concepts such as state manipulation, conditional rendering, props and componant styling',
-		link: 'www.link.com',
-		code: 'github.com'
-
-	},
-	{
-		id: 3,
-	    img:img_PH,
-		type: 'FullStack',
-		title: 'Up comming',
-		description: 'This app was part of a course on React in which I leaned and mastered core React concepts such as state manipulation, conditional rendering, props and componant styling',
-		link: 'www.link.com',
-		code: 'github.com'
-
-	},
-	{
-		id: 4,
-	    img:img_PH,
-		type: 'FullStack',
-		title: 'Up comming',
-		description: 'This app was part of a course on React in which I leaned and mastered core React concepts such as state manipulation, conditional rendering, props and componant styling',
+		title: `" Up comming "`,
+		description: `This project was to learn how to setup a Fullstack app on AWS with a PostgreSQL database and a node/express server.(-currently under construction-)`,
 		link: 'www.link.com',
 		code: 'github.com'
 

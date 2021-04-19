@@ -5,8 +5,7 @@ function Footer(){
 
 	return(
 	<div className='footer'>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 	 
-				neque maiores.</p>
+				<p><span>&#169;</span> 2021 - Naftali Breuning || naftalib212@gmail.com || +972 5331 555 34</p>
 	</div>
 		
 		)

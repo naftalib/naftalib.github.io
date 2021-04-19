@@ -1,50 +1,28 @@
-import img_PH from './imgs/placeHolder3.JPG'
-
-
+import img_PA from './imgs/portyApp.JPG'
+import img_ZTM from './imgs/ZTM.JPG'
 
 const Data = [
 
 	{
 		id: 1,
-	    img:img_PH,
-		type: 'FullStack',
-		title: 'Up comming',
-		description: 'This app was part of a course on React in which I leaned and mastered core React concepts such as state manipulation, conditional rendering, props and componant styling',
-		link: 'www.link.com',
-		code: 'github.com'
+	    img:img_PA,
+		type: 'React App',
+		title: 'Easy Portfolio App',
+		description: `This portfolio app that you're viewing is my first complete open source contrubution. I was inspired to develop it to showcase my own work and decided that if anyone else could benefit from or improve it all the better!`,
+		link: '',
+		code: 'https://github.com/naftalib/easy-portfolio-app'
 
 	},
 	{
 		id: 2,
-	    img:img_PH,
-		type: 'FullStack',
-		title: 'Up comming',
-		description: 'This app was part of a course on React in which I leaned and mastered core React concepts such as state manipulation, conditional rendering, props and componant styling',
-		link: 'www.link.com',
-		code: 'github.com'
-
-	},
-	{
-		id: 3,
-	    img:img_PH,
-		type: 'FullStack',
-		title: 'Up comming',
-		description: 'This app was part of a course on React in which I leaned and mastered core React concepts such as state manipulation, conditional rendering, props and componant styling',
-		link: 'www.link.com',
-		code: 'github.com'
-
-	},
-	{
-		id: 4,
-	    img:img_PH,
-		type: 'FullStack',
-		title: 'Up comming',
-		description: 'This app was part of a course on React in which I leaned and mastered core React concepts such as state manipulation, conditional rendering, props and componant styling',
-		link: 'www.link.com',
-		code: 'github.com'
+	    img:img_ZTM,
+		type: 'React',
+		title: 'ZTM network',
+		description: 'The Zero to Mastery community hosts a vast number of open source projects that serve as a platform for students to gain experience colaborating with eachother via github. I got involved with some of these small apps.',
+		link: 'https://github.com/zero-to-mastery',
+		code: ''
 
 	}
-
 ]
 
 export default Data
