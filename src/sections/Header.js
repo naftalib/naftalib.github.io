@@ -9,7 +9,7 @@ const Header = () => {
 			<div className='section-1'>
 				{/* {<h1 className="tag">{`<NB/>`}</h1>} */}
                 <h2>Naftali Breuning</h2>
-                <hr id="hr_logo"></hr>
+                <hr id="hr_logo"/>
                 <h3 id="webdev">web developer</h3>
                 <p className="tag">Israel</p>
 			</div>	

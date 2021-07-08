@@ -1,23 +1,21 @@
 /* global */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-body{
-    margin: 0;
-    font-family: 'Roboto', sans-serif; 
-    }
-
-.body{
-    background-color: #191d1f;
-    color: #fff;
-    padding: 10px;
-
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
-.body2{
-    margin: 0 auto;
-    max-width: 1200px;
-}
-.footer{
-    background-color: #000;
-    color: #fff;
 
+.body {
+  background-color: #191d1f;
+  color: #fff;
+  padding: 10px;
+}
+.body2 {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.footer {
+  background-color: #000;
+  color: #fff;
 }

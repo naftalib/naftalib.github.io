@@ -87,6 +87,10 @@
 
 /*Body*/
 
+img {
+    max-width: 100%;
+}
+
 .selection_container{
     padding:0 0 1em 1.5rem;
     font-size: 1.5em;

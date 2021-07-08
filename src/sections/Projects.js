@@ -65,7 +65,7 @@ class App extends Component {
 			<Nav 
 			key={detail.id} 
 			detail={detail} 
-			img={detail.img}
+			
 			handleClick={this.handleClick}
 			/>)
 
@@ -73,7 +73,7 @@ class App extends Component {
 			<Display
 			key={info.id} 
 			info={info} 
-			img={info.img}
+			
 			/>
 			)
 
