@@ -16,7 +16,7 @@ return(
 	<div className='section-2'>
 		<h2>About</h2>
 		<p>
-			{`Highly motivated and tenacious self-taught Web developer. Passionate about learning new technologies and problem solving, always trying to find the most logical yet creative solution to any challenge`}<br />
+			{`Highly motivated and tenacious Web developer. Passionate about learning new technologies and problem solving, always trying to find the most logical yet creative solution to any challenge`}<br />
 			<br />
 			{`Please browse through my portfolio. Each project has a link to a live demo as well as a github repo`}
 		</p>

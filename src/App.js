@@ -1,28 +1,26 @@
-import React from 'react';
-import './App.css'
-import Header from './sections/Header'
-import Projects from './sections/Projects'
-import Profile from './sections/Profile'
-import Footer from './sections/Footer'
+import logo from './logo.svg';
+import './App.css';
+import './Components/Components.css'
+import Header from './Components/Header'
+import Router from './Components/Router'
+import Footer from './Components/Footer'
+
 
 function App() {
-
   return (
-   <div>  
-      <div>
+   <div claassName='mainContainer'>
+      <div className='header'>
         <Header />
       </div>
-      <div className='body'>
-        <div className='body2'>
-        <Profile />
-           <Projects />
-        </div>
+      <div className='main'>
+        <Router />
       </div>
       <div className='footer'>
         <Footer />
       </div>
+      
     </div>
-    )
+  );
 }
 
 export default App;
