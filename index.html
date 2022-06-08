@@ -4,38 +4,206 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Naftali Breuning</title>
 
-    <style>
-        body {
-            background-color: rgb(0, 0, 0);
-            font-family: sans-serif;
-            color: whitesmoke;
-            text-align: center;
-        }
-        h2, h3    {
-            color: rgb(18, 171, 174);
-        }
-        hr{
-           width: 200px;
-        }
-        a{
-            text-decoration: none;
-            color: rgb(18, 171, 174);
-        }
-        a:hover{
-            color: orange;
-        }
-        </style>
+    <!-- CSS STYLES -->
+    <link rel="stylesheet" href="CSS/index.css">
+
+    <!-- FAVICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Animate CSS CDN -->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+
+    <title>NafDev</title>
 </head>
 <body>
-    <h2>Naftali Breuning</h2>
-    <h1>Currently under construction</h1>
-    <h3>Please check back soon</h3>
-    <hr>
-    <p>In the meantime, check out my
-        <a href="https://github.com/naftalib"> github account</a>  
-    </p>
+    <!-- Navbar -->
+    <nav>
+        <!-- Title -->
+        <div><h1>Naftali Breuning</h1><h4>web developer</h4></div>
+        <!-- S-M Links -->
+        <div class="social-links">
+            <a  href="https://www.linkedin.com/in/naftalib/" 
+            class="fa fa-linkedin" >
+          </a>
+            <p class="nav-deviders"> || </p>
+            <a href="https://github.com/naftalib" 
+            class="fa fa-github" >
+          </a>
+        </div>
+          <!-- light-dark togle -->
+        <div id="theme">
+          <button id="light-theme-btn">light</button>
+          <p class="nav-deviders"> || </p>
+          <button id="dark-theme-btn">dark</button>
+        </div>
+  
+        <ul class="navigation">
+          <li>
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <p class="nav-deviders"> || 
+          </p>
+          <li>
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <p class="nav-deviders"> || 
+          </p>
+          <li>
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <p class="nav-deviders"> || 
+          </p>
+          <li>
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+  
+        <button class="burger-menu" id="burger-menu">
+          <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+      </nav>
+
+          <!-- Hero Section -->
+    <section class="hero" id="about">
+   
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          o	Tenacious Web Developer, passionate about learning new technologies and problem solving. 
+          Always trying to find the most logical yet creative solution to any challenge. Please browse through my portfolio. 
+          Each project has a link to a live demo as well as a github repo.</p>
+      </div>
+    </section>
+
+        <!-- More about -->
+        <section class="more-about">
+          <h3>
+            More about me.
+          </h3>
+          <p>
+            I am your next best hire. Seriously, and here's why.          </p>
+          <p>
+            I have been learning to code with modern front-end web technologies since late 2018, slowly and consistently. 
+            I'm not that newb that only wrote his first loop 3 months ago. Nope! I have been learning over time. 
+            Experimenting, understanding, absorbing, solidifying. With the help of many online resources coupled with experienced coaching 
+            I have gained proficiency and confidence in my programmatic thinking and ability to produce great front-end products. 
+            I have worked through many projects, understanding, and improving them as well as built up stamina with coding challenges. 
+            I have utilized my skills to write web apps for opportunities in my current line employment as well as for family and friends and contributed to open source. 
+            Most of all I have grown to love web development with a passion and I crave to do it all day! I am worth the investment and will yield returns way faster than anyone else. 
+            Reach out to me today and grab this opportunity.
+          </p>
     
+        </section>
+
+           <!-- Skills section -->
+    <section id="skills">
+      <div class="skills-container">
+        <div class="skill-list">
+          <h2>Acquired Skills</h2>
+          <div id="skills-row-1">
+         </div>
+        </div>
+      <hr>
+      <div class="skill-list">
+        <h2>Skills in acquisition</h2>
+        <div id="skills-row-2">
+       </div>
+      </div>
+      </div>
+      
+    </section>
+
+    <!-- Projects section -->
+    <main id="projects">
+      <section class="projects-container">
+        <h2 class="projects-title">Featured Projects</h2>
+          <div class="projects-card-container">
+            <div class="project-each" id="project-1"></div>
+            <div class="project-each" id="project-2"></div>
+          </div>
+          <hr>
+          <h2 class="projects-title">Other Projects</h2>
+          <div class="projects-card-container">
+            <div class="project-each" id="project-3"></div>
+            <div class="project-each" id="project-4"></div>
+         </div>
+
+          <div class="projects-card-container">
+            <div class="project-each" id="project-5"></div>
+            <div class="project-each" id="project-6"></div>
+          </div>
+          <div class="projects-card-container">
+            <div class="project-each" id="project-7"></div>
+            <div class="project-each" id="project-8"></div>
+        </div>
+      </section>      
+    </main>
+
+  <!-- Contact section -->
+
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-info">
+        <h3>
+          <span>o</span>
+          naftalib212@gmail.com
+        </h3>
+        <h3>
+          <span>o</span>
+          +972 53 31 555 34
+        </h3>
+        <h3>
+          <span>o</span>
+          <a href="https://github.com/naftalib">GitHub</a>
+        </h3>
+        <h3>
+          <span>o</span>
+          <a href="https://www.linkedin.com/in/naftalib/">LinkeIn</a>
+          </h3>   
+      </div>
+
+      
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+      <div class="footer">
+        <p>
+          Built by
+          <span>naftalib</span>
+          using HTML CSS & Vanilla JS!
+        </p>
+         <p>||</p>
+        <p>For a free generic copy of this porfolio site click here</p> 
+      </div>
+    </footer>
+
+
+        <!-- Scroll to top -->
+        <i class="scroll-up" id="scroll-up"
+        ><img
+          src="assets/icons/icons8-upward-arrow.gif"
+          class="socicon up-arrow"
+          alt=""
+      /></i>
+
+      <!-- Web-Scripts -->
+      <script src="JS/index.js"></script>
+      <script src="JS/skills.js"></script>
+      <script src="JS/projects.js"></script>
+        <!-- Ion icons scripts -->
+        <script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      ></script>
 </body>
 </html>
