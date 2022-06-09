@@ -22,7 +22,7 @@ const projects = {
         link: "https://naftalib.github.io/MemeGenerator/" 
     },
     four:{
-        img:"./assets/DATA/imgs/ToDo.PNG",
+        img:"./assets/DATA/imgs/ToDo.JPG",
         title: 'To do list',
         description: `This app was part of a course on React in which I learned and mastered core React concepts such as state manipulation, conditional rendering, props and componant styling`,
         code: 'https://github.com/naftalib/todoApp',
