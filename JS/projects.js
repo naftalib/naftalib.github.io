@@ -1,6 +1,6 @@
 const projects = {
     one:{
-        img: "./assets/DATA/imgs/dashboard.png",
+        img: "./assets/DATA/imgs/dashboard.PNG",
         title: 'Personal Dashboard app',
         description: `This little app is a cool chrome extention based off of the momentum browser extention. I gave it a few other features like a currency converter.`,	
         code: 'https://github.com/naftalib/dashBoard',
@@ -22,7 +22,7 @@ const projects = {
         link: "https://naftalib.github.io/MemeGenerator/" 
     },
     four:{
-        img:"./assets/DATA/imgs/ToDo.JPG",
+        img:"./assets/DATA/imgs/ToDo.PNG",
         title: 'To do list',
         description: `This app was part of a course on React in which I learned and mastered core React concepts such as state manipulation, conditional rendering, props and componant styling`,
         code: 'https://github.com/naftalib/todoApp',
@@ -45,7 +45,7 @@ const projects = {
     
     },
     seven:{
-        img:"./assets/DATA/imgs/parking.png",
+        img:"./assets/DATA/imgs/parking.PNG",
         title: 'Parking tracker',
         description: `I developped this App as part of a coding challenge that I expanded on. See the README file for more details.`,
 		code: 'https://github.com/naftalib/parking-tracker/blob/API/client/js/app.js',
