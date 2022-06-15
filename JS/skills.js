@@ -5,16 +5,12 @@ const skills1 = [
 "JavaScript",
 "React.js",
 "Node.js",
-"Version controll (Git/GitHub)",
-"Dev Tools",
-"Terminal",
-"Google (seriously)",
+"Version controll (Git/GitHub)"
 ]
 
 const skills2 = [
   "Vue.js", 
   "JSDoc",
-  "Unit Testing",
   "Tailwind CSS",
   "Databases (MongoDB)"
   ]
