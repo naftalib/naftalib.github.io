@@ -17,7 +17,7 @@ const projects = {
     
     },
     three:{
-        img:"./assets/DATA/imgs/MG.JPG",
+        img:"./assets/DATA/imgs/react.png",
         title: 'Meme Generator',
         description: `This app was part of a React course which covered lifecycle methods, API calls and React forms`,
         code: 'https://github.com/naftalib/MemeGenerator',
@@ -82,3 +82,4 @@ const projects = {
   document.querySelector("#project-4").innerHTML = `${test(projects.four)}`
   document.querySelector("#project-5").innerHTML = `${test(projects.five)}`
   document.querySelector("#project-6").innerHTML = `${test(projects.six)}`
+  document.querySelector("#project-7").innerHTML = `${test(projects.three)}`
