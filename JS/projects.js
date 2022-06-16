@@ -51,7 +51,7 @@ const projects = {
         title: 'Parking tracker',
         description: `I developped this App as part of a coding challenge that I expanded on. See the README file for more details.`,
 		code: 'https://github.com/naftalib/parking-tracker/blob/API/client/js/app.js',
-		link: 'https://naftalib.github.io/parking-tracker/'
+		link: 'https://github.com/naftalib/parking-tracker'
     
     }
   }
