@@ -13,7 +13,7 @@ const projects = {
         title: 'Robo Cards',
         description: `This React app displays character cards, generated with a http-call to robohash.org to retrieve character figures and the JSON placeholder/users API. The characters are searchable according to name. I plan on adding some more features to it soon`,
 		code: 'https://github.com/naftalib/roboQuotes/tree/main',
-		link: 'https://naftalib.github.io/roboQuotes/',
+		link: 'https://naftalib.github.io/robots/',
     
     },
     three:{
@@ -28,7 +28,7 @@ const projects = {
         title: 'To do list',
         description: `This app was part of a course on React in which I learned and mastered core React concepts such as state manipulation, conditional rendering, props and componant styling`,
         code: 'https://github.com/naftalib/todoApp',
-        link: 'https://naftalib.github.io/todoApp/',
+        link: 'https://github.com/naftalib/todoApp',
     
     },
     five:{
@@ -36,7 +36,7 @@ const projects = {
         title: 'Google Keep clone',
         description: `This project was the first of a JS boot camp which I completed. The aim was to mimic the Google Keep app's basic functionality of taking and storing notes. Check out my code on GitHub by clicking on the link below`,
 		code: 'https://github.com/naftalib/GoogleKeepClone',
-		link: 'https://naftalib.github.io/GoogleKeepClone/'
+		link: 'https://github.com/naftalib/GoogleKeepClone'
     },
     six:{
         img:"./assets/DATA/imgs/react.png",
@@ -82,4 +82,4 @@ const projects = {
   document.querySelector("#project-4").innerHTML = `${test(projects.four)}`
   document.querySelector("#project-5").innerHTML = `${test(projects.five)}`
   document.querySelector("#project-6").innerHTML = `${test(projects.six)}`
-  document.querySelector("#project-7").innerHTML = `${test(projects.three)}`
+
