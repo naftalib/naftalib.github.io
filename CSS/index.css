@@ -267,9 +267,9 @@ nav {
 
 .project-display-card-js img{
 text-align: center;
-border-radius: 5%;
+border-radius: 15%;
 border: 1px solid orange;
-width: 50%;
+width: 40%;
 margin: 0 auto;
 margin-bottom: 5px;
 }
