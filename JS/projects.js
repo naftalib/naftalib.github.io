@@ -53,6 +53,14 @@ const projects = {
 		code: 'https://github.com/naftalib/parking-tracker/blob/API/client/js/app.js',
 		link: 'https://github.com/naftalib/parking-tracker'
     
+    },
+    eight:{
+        img:"./assets/DATA/imgs/react.png",
+        title: 'Investors',
+        description: `This app was for an interview asignment in React`,
+		code: 'https://github.com/naftalib/bhbsd',
+		link: 'https://naftalib.github.io/bhbsd/'
+    
     }
   }
   
@@ -83,4 +91,5 @@ const projects = {
   document.querySelector("#project-5").innerHTML = `${test(projects.five)}`
   document.querySelector("#project-6").innerHTML = `${test(projects.six)}`
   document.querySelector("#project-7").innerHTML = `${test(projects.three)}`
+  document.querySelector("#project-8").innerHTML = `${test(projects.three)}`
 
