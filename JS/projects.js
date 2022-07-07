@@ -91,5 +91,5 @@ const projects = {
   document.querySelector("#project-5").innerHTML = `${test(projects.five)}`
   document.querySelector("#project-6").innerHTML = `${test(projects.six)}`
   document.querySelector("#project-7").innerHTML = `${test(projects.three)}`
-  document.querySelector("#project-8").innerHTML = `${test(projects.three)}`
+  document.querySelector("#project-8").innerHTML = `${test(projects.eight)}`
 
