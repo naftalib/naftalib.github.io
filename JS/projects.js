@@ -84,12 +84,13 @@ const projects = {
   
 //Instantiation of each project - deployed to the DOM
 
-  document.querySelector("#project-1").innerHTML = `${test(projects.one)}`
+  document.querySelector("#project-1").innerHTML = `${test(projects.eight)}`
   document.querySelector("#project-2").innerHTML = `${test(projects.seven)}`
-  document.querySelector("#project-3").innerHTML = `${test(projects.two)}`
-  document.querySelector("#project-4").innerHTML = `${test(projects.four)}`
-  document.querySelector("#project-5").innerHTML = `${test(projects.five)}`
-  document.querySelector("#project-6").innerHTML = `${test(projects.six)}`
-  document.querySelector("#project-7").innerHTML = `${test(projects.three)}`
-  document.querySelector("#project-8").innerHTML = `${test(projects.eight)}`
+  document.querySelector("#project-3").innerHTML = `${test(projects.one)}`
+  document.querySelector("#project-4").innerHTML = `${test(projects.two)}`
+  document.querySelector("#project-5").innerHTML = `${test(projects.four)}`
+  document.querySelector("#project-6").innerHTML = `${test(projects.five)}`
+  document.querySelector("#project-7").innerHTML = `${test(projects.six)}`
+  document.querySelector("#project-8").innerHTML = `${test(projects.three)}`
+
 
