@@ -12,7 +12,7 @@ const projects = {
         img:"./assets/DATA/imgs/react.png",
         title: 'Robots',
         description: `This React app displays character cards, generated with a http-call to robohash.org to retrieve character figures and the JSON placeholder/users API. The characters are searchable according to name. I plan on adding some more features to it soon`,
-		code: 'https://github.com/naftalib/robots/tree/main',
+		code: 'https://github.com/naftalib/robots/blob/main/src/containers/App.js',
 		link: 'https://github.com/naftalib/robots',
     
     },
@@ -27,7 +27,7 @@ const projects = {
         img:"./assets/DATA/imgs/react.png",
         title: 'To do list',
         description: `This app was part of a course on React in which I learned and mastered core React concepts such as state manipulation, conditional rendering, props and componant styling`,
-        code: 'https://github.com/naftalib/todoApp',
+        code: 'https://github.com/naftalib/todoApp/blob/main/src/App.js',
         link: 'https://github.com/naftalib/todoApp',
     
     },
@@ -35,14 +35,14 @@ const projects = {
         img:"./assets/DATA/imgs/js.png",
         title: 'Google Keep clone',
         description: `This project was the first of a JS boot camp which I completed. The aim was to mimic the Google Keep app's basic functionality of taking and storing notes. Check out my code on GitHub by clicking on the link below`,
-		code: 'https://github.com/naftalib/GoogleKeepClone',
+		code: 'https://github.com/naftalib/GoogleKeepClone/blob/master/app.js',
 		link: 'https://github.com/naftalib/GoogleKeepClone'
     },
     six:{
         img:"./assets/DATA/imgs/react.png",
         title:'git -search ',
         description:`I used this project as the playground to get familiar with React hooks in functional components. I coded it from scratch with hooks and then redid it using class-based components so as to fully grasp the mechanics of using the 'useState' and 'useEffect' hooks`,
-		code:"https://github.com/naftalib/github_finder_hooks",
+		code:"https://github.com/naftalib/github_finder_hooks/blob/main/src/App.js",
 		link:"https://github.com/naftalib/github_finder_hooks"
     
     },
@@ -58,8 +58,8 @@ const projects = {
         img:"./assets/DATA/imgs/react.png",
         title: 'Investors',
         description: `This app was for an interview asignment in React`,
-		code: 'https://github.com/naftalib/bhbsd',
-		link: 'https://naftalib.github.io/bhbsd/'
+		code: 'https://github.com/naftalib/bhbsd/blob/main/src/App.js',
+		link: 'https://github.com/naftalib/bhbsd'
     
     }
   }

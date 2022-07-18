@@ -227,8 +227,29 @@ nav {
 #projects{
   padding: 10px;
   background-color: var(--bg-color2);
-
 }
+.projects-container h1{
+  font-size: 2rem;
+  font-weight: lighter;
+}
+.demo{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  
+}
+#demo-img{
+  padding: 10px;
+}
+.demo img{
+  border-radius: 10px;
+  border: 1px solid var(--primary-color);
+}
+.demo-content{
+  padding-right: 20px;
+  line-height: 30px;
+}
+
 .projects-container{
   display: flex;
   flex-direction: column;
@@ -240,6 +261,12 @@ nav {
   padding: 0.5rem;
 }
 .projects-container hr{
+  opacity: 30%;
+  color: var(--text-color);
+  width: 40%;
+  margin: 0 auto;
+}
+#projects-hr{
   opacity: 30%;
   color: var(--text-color);
   width: 80%;
@@ -414,4 +441,6 @@ font-stretch: expanded;
     flex-direction: column;
   }
 
+  .projects-container hr{
+    width: 80%;
 }

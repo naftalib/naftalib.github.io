@@ -8,11 +8,10 @@ const skills1 = [
 ]
 
 const skills2 = [
+  "Firebase: User-auth, databases",
   "Vue.js", 
   "Node.js",
-  "JSDoc",
   "Tailwind CSS",
-  "Databases (MongoDB)"
   ]
 
 const skillsList1 = skills1.map(skill=>{
