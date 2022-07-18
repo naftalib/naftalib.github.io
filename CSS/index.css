@@ -1,6 +1,6 @@
 /* Variables */
 :root {
-    --font-family: "Roboto" sans-serf;
+    --font-family: 'Roboto', sans-serif;
     --normal-font: 400;
     --bold-font: 700;
     --bolder-font: 900;
@@ -20,7 +20,7 @@
   /* Variables end */
 
   html {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
   }
   body{
@@ -139,6 +139,9 @@ nav {
   padding: 2rem 1rem 1rem 1rem;
   margin-top: 3rem;
 }
+/* .hero{
+  text-align: center;
+} */
 
 .bio {
   max-width: 1100px;
@@ -238,8 +241,8 @@ nav {
   padding: 20px;
   
 }
-#demo-img{
-  padding: 10px;
+#demo-img-txt{
+  padding-bottom: 15px;
 }
 .demo img{
   border-radius: 10px;
@@ -249,7 +252,9 @@ nav {
   padding-right: 20px;
   line-height: 30px;
 }
-
+.demo-content span{
+  text-decoration: underline;
+}
 .projects-container{
   display: flex;
   flex-direction: column;
@@ -272,9 +277,7 @@ nav {
   width: 80%;
   margin: 0 auto;
 }
-.hero{
-  text-align: center;
-}
+
 .projects-card-container{
   display: flex;
   flex-direction: row;
@@ -338,9 +341,7 @@ margin-bottom: 5px;
   letter-spacing: 3px;
   text-align: center;
 }
-.contact-info{
 
-}
 .contact h2{
   text-decoration: underline;
   padding-bottom: 10px;
@@ -443,4 +444,5 @@ font-stretch: expanded;
 
   .projects-container hr{
     width: 80%;
+}
 }
