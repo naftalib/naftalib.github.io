@@ -244,9 +244,10 @@ nav {
 #demo-img-txt{
   padding-bottom: 15px;
 }
-.demo img{
+#demo-img{
   border-radius: 10px;
   border: 1px solid var(--primary-color);
+  
 }
 .demo-content{
   padding-right: 20px;
