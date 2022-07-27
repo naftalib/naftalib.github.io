@@ -19,7 +19,7 @@ const projects = {
     three:{
         img:"./assets/DATA/imgs/js.png",
         title: 'War Cards',
-        description: `Play against the computer and see who wins`,
+        description: `Play against the computer and see who wins. A course project I built using vanilla JS`,
         code: 'https://github.com/naftalib/war-cards/blob/main/script.js',
         link: "https://github.com/naftalib/war-cards" 
     },
@@ -57,7 +57,7 @@ const projects = {
     eight:{
         img:"./assets/DATA/imgs/react.png",
         title: 'Investors',
-        description: `This app was for an interview asignment in React`,
+        description: `This app was my solution to a coding challenge fetching data from an API, built in in React`,
 		code: 'https://github.com/naftalib/bhbsd/blob/main/src/App.js',
 		link: 'https://github.com/naftalib/bhbsd'
     
@@ -74,10 +74,11 @@ const projects = {
         <p>${data.description}</p>
         <div class="project-links">
         <ul>
-            <li><a href=${data.code} target="_blank">Inspect the Code</a></li>
-            <li><a href=${data.link} target="_blank">Check it out this project</a></li>
+            <li><a href=${data.code} target="_blank">> Code</a></li><br>
+            <li><a href=${data.link} target="_blank">> Demo</a></li>
         </ul> 
         </div>
+        <hr>
   </div>
   `
   }
