@@ -4,14 +4,14 @@ const projects = {
     one:{
         img: "./assets/DATA/imgs/js.png",
         title: 'Personal Dashboard app',
-        description: `This little app is a cool chrome extention based off of the momentum browser extention. I gave it a few other features like a currency converter.`,	
+        description: `This little app is a cool chrome extension based off of the momentum browser extension. I gave it a few other features like a currency converter.`,	
         code: 'https://github.com/naftalib/dashBoard/blob/main/index.js',
         link: 'https://github.com/naftalib/dashBoard'
     },
     two:{
         img:"./assets/DATA/imgs/react.png",
         title: 'Robots',
-        description: `This React app displays character cards, generated with a http-call to robohash.org to retrieve character figures and the JSON placeholder/users API. The characters are searchable according to name. I plan on adding some more features to it soon`,
+        description: `This React app displays character cards, generated with a http-call to robohash.org to retrieve character figures and the JSON placeholder/users API for dummy data. The characters are searchable by name. I plan on adding a feature where a random quote generator will trigger a quote when a robot is clicked.`,
 		code: 'https://github.com/naftalib/robots/blob/main/src/containers/App.js',
 		link: 'https://github.com/naftalib/robots',
     
@@ -19,14 +19,14 @@ const projects = {
     three:{
         img:"./assets/DATA/imgs/js.png",
         title: 'War Cards',
-        description: `Play against the computer and see who wins. A course project I built using vanilla JS`,
+        description: `Play against the computer and see who wins. A course project I built using vanilla JS.`,
         code: 'https://github.com/naftalib/war-cards/blob/main/script.js',
         link: "https://github.com/naftalib/war-cards" 
     },
     four:{
         img:"./assets/DATA/imgs/react.png",
         title: 'To do list',
-        description: `This app was part of a course on React in which I learned and mastered core React concepts such as state manipulation, conditional rendering, props and componant styling`,
+        description: `This app was part of a course on React in which I learned and mastered core React concepts such as state manipulation, conditional rendering, props and component styling.`,
         code: 'https://github.com/naftalib/todoApp/blob/main/src/App.js',
         link: 'https://github.com/naftalib/todoApp',
     
@@ -34,14 +34,14 @@ const projects = {
     five:{
         img:"./assets/DATA/imgs/js.png",
         title: 'Google Keep clone',
-        description: `This project was the first of a JS boot camp which I completed. The aim was to mimic the Google Keep app's basic functionality of taking and storing notes. Check out my code on GitHub by clicking on the link below`,
+        description: `This project was the first of a JS boot camp which I completed. The aim was to mimic the Google Keep app's basic functionality of taking and storing notes. Check out my code on GitHub by clicking on the link below.`,
 		code: 'https://github.com/naftalib/GoogleKeepClone/blob/master/app.js',
 		link: 'https://github.com/naftalib/GoogleKeepClone'
     },
     six:{
         img:"./assets/DATA/imgs/react.png",
         title:'git -search ',
-        description:`I used this project as the playground to get familiar with React hooks in functional components. I coded it from scratch with hooks and then redid it using class-based components so as to fully grasp the mechanics of using the 'useState' and 'useEffect' hooks`,
+        description:`I used this project as the playground to get familiar with React hooks in functional components. I coded it from scratch with hooks and then redid it using class-based components so as to fully grasp the mechanics of using the 'useState' and 'useEffect' hooks.`,
 		code:"https://github.com/naftalib/github_finder_hooks/blob/main/src/App.js",
 		link:"https://github.com/naftalib/github_finder_hooks"
     
@@ -49,7 +49,7 @@ const projects = {
     seven:{
         img:"./assets/DATA/imgs/js.png",
         title: 'Parking tracker',
-        description: `I developped this App as part of a coding challenge that I expanded on. See the README file for more details.`,
+        description: `I developed this App as part of a coding challenge that I expanded on. See the README file for more details.`,
 		code: 'https://github.com/naftalib/parking-tracker/blob/API/client/js/app.js',
 		link: 'https://github.com/naftalib/parking-tracker'
     
@@ -57,7 +57,7 @@ const projects = {
     eight:{
         img:"./assets/DATA/imgs/react.png",
         title: 'Investors',
-        description: `This app was my solution to a coding challenge fetching data from an API, built in in React`,
+        description: `This app was my solution to a coding challenge, fetching data from an API that generates JSON objects consisting of a unique profile for an investor, built in in React. See the README file in the repo.`,
 		code: 'https://github.com/naftalib/bhbsd/blob/main/src/App.js',
 		link: 'https://github.com/naftalib/bhbsd'
     
@@ -72,6 +72,7 @@ const projects = {
     <img src=${data.img} alt=${data.title}>
     <h2>${data.title}</h2>
         <p>${data.description}</p>
+        
         <div class="project-links">
         <ul>
             <li><a href=${data.code} target="_blank">> Code</a></li><br>
