@@ -11,7 +11,7 @@ const projects = {
     two:{
         img:"./assets/DATA/imgs/react.png",
         title: 'Robots',
-        description: `This React app displays character cards, generated with a http-call to robohash.org to retrieve character figures and the JSON placeholder/users API for dummy data. The characters are searchable by name. I plan on adding a feature where a random quote generator will trigger a quote when a robot is clicked.`,
+        description: `This React app displays character cards, generated with a http-call to robohash.org to retrieve character figures and the JSON placeholder/users API for dummy data. The characters are searchable by name.`,
 		code: 'https://github.com/naftalib/robots/blob/main/src/containers/App.js',
 		link: 'https://github.com/naftalib/robots',
     
@@ -34,7 +34,7 @@ const projects = {
     five:{
         img:"./assets/DATA/imgs/js.png",
         title: 'Google Keep clone',
-        description: `This project was the first of a JS boot camp which I completed. The aim was to mimic the Google Keep app's basic functionality of taking and storing notes. Check out my code on GitHub by clicking on the link below.`,
+        description: `This project was the first of a JS boot camp which I completed. The aim was to mimic the Google Keep app's basic functionality of taking and storing notes.`,
 		code: 'https://github.com/naftalib/GoogleKeepClone/blob/master/app.js',
 		link: 'https://github.com/naftalib/GoogleKeepClone'
     },
@@ -57,7 +57,7 @@ const projects = {
     eight:{
         img:"./assets/DATA/imgs/react.png",
         title: 'Investors',
-        description: `This app was my solution to a coding challenge, fetching data from an API that generates JSON objects consisting of a unique profile for an investor, built in in React. See the README file in the repo.`,
+        description: `This app was my solution to a coding challenge, fetching data from an API that generates JSON objects consisting of a unique profile for an investor, built in React. See the README file in the repo.`,
 		code: 'https://github.com/naftalib/bhbsd/blob/main/src/App.js',
 		link: 'https://github.com/naftalib/bhbsd'
     
