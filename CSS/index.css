@@ -102,6 +102,7 @@ nav {
   .nav-deviders{
     color: var(--text-color);
   }
+
   .social-links{
     display: flex;
     gap: 0.5rem;
