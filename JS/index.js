@@ -1,10 +1,10 @@
-const lightTheme = ()=>{
-  root.style.setProperty('--bg-color', 'whitesmoke')
-  root.style.setProperty('--bg-color2', '#f3eee7')
-  root.style.setProperty('--text-color', 'black') 
-  root.style.setProperty('--primary-color', '#379e9c')
- }
- window.onload =  lightTheme
+// const lightTheme = ()=>{
+//   root.style.setProperty('--bg-color', 'whitesmoke')
+//   root.style.setProperty('--bg-color2', '#f3eee7')
+//   root.style.setProperty('--text-color', 'black') 
+//   root.style.setProperty('--primary-color', '#379e9c')
+//  }
+//  window.onload =  lightTheme
 
 // Nav hamburgerburger selections
 const burger = document.querySelector("#burger-menu")
