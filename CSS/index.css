@@ -267,14 +267,18 @@ nav {
   text-align: center;
 
 }
+.projects-container h1{
+  padding: 20px;
+  font-weight: bolder;
+}
 .projects-container h2{
   text-decoration: underline;
-  padding: 0.5rem;
+  padding: 1rem;
 }
 .projects-container hr{
   opacity: 30%;
   color: var(--text-color);
-  width: 40%;
+  width: 30%;
   margin: 0 auto;
 }
 #projects-hr{
@@ -341,7 +345,7 @@ margin-bottom: 5px;
 /* Contact section */
 
 .contact{
-  padding: 20px;
+  padding-top: 40px;
   line-height: 1.5rem;
   letter-spacing: 3px;
   text-align: center;

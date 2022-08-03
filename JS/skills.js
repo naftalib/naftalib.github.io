@@ -1,4 +1,5 @@
 const skills1 = [
+"Google",  
 "HTML", 
 "CSS",
 "UX/UI Design",
@@ -9,6 +10,7 @@ const skills1 = [
 
 const skills2 = [
   "Firebase: User-auth, databases",
+  "Advanced React concepts",
   "Vue.js", 
   "Node.js",
   "Tailwind CSS",
