@@ -17,7 +17,7 @@ const skills2 = [
   ]
 
 const skillsList1 = skills1.map(skill=>{
-return `<ul class="skills-ul">
+return `<ul class="skill-ul">
     <li><span>o</span>${skill}</li>  
   </ul>`
 })
