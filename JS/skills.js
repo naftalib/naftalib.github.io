@@ -24,14 +24,14 @@ return `<ul class="skills-ul">
 
 console.log(skillsList1)
 
-document.querySelector('#skills-row-1').innerHTML = skillsList1.join("")
+document.querySelector('#skill-row-1').innerHTML = skillsList1.join("")
 
 const skillsList2 = skills2.map(skill=>{
-  return `<ul class="skills-ul">
+  return `<ul class="skill-ul">
       <li><span>o</span>${skill}</li>  
     </ul>`
   })
   
   console.log(skillsList2)
   
-  document.querySelector('#skills-row-2').innerHTML = skillsList2.join("")
+  document.querySelector('#skill-row-2').innerHTML = skillsList2.join("")
