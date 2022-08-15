@@ -1,10 +1,11 @@
-// const lightTheme = ()=>{
-//   root.style.setProperty('--bg-color', 'whitesmoke')
-//   root.style.setProperty('--bg-color2', '#f3eee7')
-//   root.style.setProperty('--text-color', 'black') 
-//   root.style.setProperty('--primary-color', '#379e9c')
-//  }
-//  window.onload =  lightTheme
+// Generate & display the current time and date
+
+function getCurrentDate() {
+  const date = new Date()
+  document.getElementById('date').textContent = date.toDateString();
+  
+}
+getCurrentDate()
 
 // Nav hamburgerburger selections
 const burger = document.querySelector("#burger-menu")
@@ -49,6 +50,7 @@ const root = document.documentElement
 themeBtnLight.addEventListener("click", () =>{
  root.style.setProperty('--bg-color', 'whitesmoke')
  root.style.setProperty('--bg-color2', '#f3eee7')
+ root.style.setProperty('--bg-color3', '#e9e5e0')
  root.style.setProperty('--text-color', 'black') 
  root.style.setProperty('--primary-color', '#379e9c')
  
@@ -57,6 +59,7 @@ themeBtnLight.addEventListener("click", () =>{
 themeBtnDark.addEventListener("click", () =>{
   root.style.setProperty('--bg-color', '#191D1F')
   root.style.setProperty('--bg-color2', 'black')
+  root.style.setProperty('--bg-color3', '#24282b')
   root.style.setProperty('--text-color', '#ffff') 
   root.style.setProperty('--primary-color', '#7FDFDD')
  } )

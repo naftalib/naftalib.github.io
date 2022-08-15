@@ -11,9 +11,7 @@ const skills1 = [
 const skills2 = [
   "Firebase: User-auth, databases",
   "Advanced React concepts",
-  "Vue.js", 
   "Node.js",
-  "Tailwind CSS",
   ]
 
 const skillsList1 = skills1.map(skill=>{

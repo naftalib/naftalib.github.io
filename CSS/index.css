@@ -6,6 +6,7 @@
     --bolder-font: 900;
     --bg-color: #191D1F;
     --bg-color2: black;
+    --bg-color3: #24282b;
     --primary-color: #7FDFDD;
     --secondary-color: #ff7235;
     --text-color: #ffff;
@@ -16,6 +17,7 @@
     --bottom-margin-2: 1rem;
     --line-height: 1.7rem;
     --transition: 0.3s;
+    --opacity: 30%;
   }
   /* Variables end */
 
@@ -129,13 +131,18 @@ nav {
   }
   /* Navbar ends */
 
+  /* date */
+  #date{
+    padding: 1rem;
+  }
+
 .bio {
 padding: 3rem 1rem;
 }
 .bio h1{
   color: var(--primary-color);
   font-size: 4rem;
-  opacity: 20%;
+  opacity: var(--opacity);
   /* padding: 1rem 0; */
 }
 .bio h2 {
@@ -160,6 +167,7 @@ padding: 1rem;}
 
 .about-end{
   text-indent: 3rem;
+  padding-bottom: 1rem;
 }
 /* Hero section ends */
 
@@ -173,7 +181,7 @@ padding: 1rem;}
 .more-about h1 {
   color: var(--primary-color);
   font-size: 2.5rem;
-  opacity: 20%;
+  opacity: var(--opacity);
 }
 
 .more-about p {
@@ -191,12 +199,16 @@ padding: 1rem;}
 
 
 /* Skills section */
+#skills{
+  max-width: 100%;
+  background-color: var(--bg-color3);
+}
 .skill-container {
   display: flex;
   flex-direction: row;
   justify-content:space-between;
   margin: auto;
-  margin: 2.5rem 0;
+  margin: 2.5rem 1rem 0 1rem;
   padding: 10px;
 }
 
@@ -207,14 +219,13 @@ padding: 1rem;}
 .skills h1{
   color: var(--primary-color);
   font-size: 4rem;
-  opacity: 20%;
+  opacity: var(--opacity);
   padding-top: 3rem;
   /* padding: 1rem 0; */
 }
 .skill-list h2 {
   margin-bottom: 1rem;
   color: var(--text-color);
-  text-decoration: underline;
 }
 .skill-list {
  display: flex;
